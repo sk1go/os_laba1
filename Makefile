@@ -3,7 +3,7 @@ CFLAGS=-O2 -Wall -W -pedantic
 
 all: testavl
 
-avl_demo:
+testavl:
 $(CC) test_avl.c avltree.c -o test_avl
 
 clean:
