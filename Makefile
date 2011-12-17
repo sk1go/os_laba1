@@ -8,6 +8,6 @@ $(CC) testavl.c avltree.c -o testavl CFLAGS
 
 
 clean:
-@rm test_avl
+@rm testavl
 
 .PHONY: clean
