@@ -1,10 +1,10 @@
 CC=gcc
 CFLAGS=-O2 -Wall -W -pedantic
 
-all: test_avl
+all: testavl
 
 testavl:
-$(CC) test_avl.c avltree.c -o test_avl CFLAGS
+$(CC) testavl.c avltree.c -o testavl CFLAGS
 
 
 clean:
